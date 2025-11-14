@@ -3,7 +3,7 @@
 @section('content')
 
 <h2 class="text-center text-white mb-5">
-    Halaman ini dibuat oleh: 2301010097 - ARTHUR EMANUEL DEKKO (GANJIL)
+    Halaman ini dibuat oleh: 2301010001 - ANGGI RAHMAWATI (GANJIL)
 </h2>
 
 <div class="row justify-content-center g-4">
@@ -13,7 +13,7 @@
         <div class="p-4 rounded-4 shadow-lg text-center"
              style="backdrop-filter: blur(15px); background: rgba(255,255,255,0.2);">
 
-            <img src="{{ $p['img'] }}"
+            <img src="{{ asset($p['img']) }}"
                  class="rounded-circle border border-3 shadow"
                  style="width: 180px; height: 180px; object-fit: cover;">
 
